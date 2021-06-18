@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+.container{
+  padding:30px;
+  margin:20px;
+
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+  font-display: center;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #0099FF;
+}
+.login-card{
+  padding:20px;
+  margin:20px;
+  border:1px solid;
+}
+.card{
+  border:2px solid;
+
+}
+.button
+{
+  color:blue;
+  border:1px solid black;
+}
+.footer{
+  background-color: black;
+  color:white;
+  
 }
